@@ -3,35 +3,32 @@
 
     <head>
         <meta charset="utf-8">
-		<meta name="description" content="Jaime Mateo's Portfolio">
-		<link style="text/css" rel="stylesheet" href="css/csscomun.css">
-		<link style="text/css" rel="stylesheet" href="css/cssindex.css">
-    <link style="text/css" rel="stylesheet" href="css/normalize.css">
+        <title>Jaime Mateo | Developer</title>
+    		<meta name="description" content="Jaime Mateo's Portfolio">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href='https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400,400italic,700,700italic,800' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/csscomun.css">
     </head>
 
     <body>
         <header>
-            <div id="capalogo">
-                <a href="index.html" target="_parent">
-                  <img id="imagenlogo" src="photos/logopequeño.jpg">
+                <a href="index.html" id="logo">
                   <h1>Jaime Mateo</h1>
                   <h2>Developer</h2>
                 </a>
-            </div>
             <nav>
-            <div id="capanavegador">
       				<ul>
-      					<li><a href="index.html" target="_parent">Portfolio</a></li>
+      					<li><a href="index.html" target="_parent" class="selected">Portfolio</a></li>
       					<li><a href="about.html" target="_parent">About</a></li>
       					<li><a href="contact.html" target="_parent">Contact</a></li>
       				</ul>
-			      </div>
             </nav>
         </header>
 
-        <section id="capaseccion">
-            <div id="filtro1">
-              <ul>
+
+        <div id="wrapper">
+            <section>
+              <ul id="gallery">
                 <li>
                   <a href="img/numbers-01.jpg" target="_parent">
                   <img src="img/numbers-01.jpg" alt= "">
@@ -63,19 +60,14 @@
                   </a>
                 </li>
               </ul>
-            </div>
-        </section>
+            </section>
+        </div>
 
-        <footer id="capapie">
+        <footer>
 			       <ul>
         				<li>
-        					<a href="index.html" target="_parent"><p>Portfolio</p></a>
-        					<a href="about.html" target="_parent"><p>About</p></a>
-        					<a href="contact.html" target="_parent"><p>Contact</p></a>
-        				</li>
-        				<li>
-        					<a href="https://twitter.com/JaimeMateo_" target="_blank"><img src="img/twitter.png" alt="Twitter Logo"></a>
-        					<a href="http://linkd.in/1HNQbtZ" target="_blank"><img src="img/facebook.png" alt="Facebook Logo"></a>
+        					<a href="https://twitter.com/JaimeMateo_" target="_blank"><img src="img/twitter.png" alt="Twitter Logo" class="social-icon"></a>
+        					<a href="http://linkd.in/1HNQbtZ" target="_blank"><img src="img/facebook.png" alt="Facebook Logo" class="social-icon"></a>
         				</li>
 			      </ul>
             <p>&copy; 2015, Jaime Mateo</p>
